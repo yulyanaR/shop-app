@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { Button } from "@/components/mui";
+import { Button, EditIcon, DeleteIcon } from "@/components/mui";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main>
         <h1>Home Page</h1>
-        <Button>Button</Button>
+        <Button variant="contained"><EditIcon />Button</Button>
       </main>
     </>
   );
